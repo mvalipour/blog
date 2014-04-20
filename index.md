@@ -19,7 +19,11 @@ title: Welcome!
 				  {{ post.content }}
 				{% endif %}
 			</div>
-			<div class="buttons"><a href="{{ BASE_PATH }}{{ post.url }}">Read more &raquo;</a></div> 
+			<div class="buttons">
+				<a href="{{ BASE_PATH }}{{ post.url }}#comments">Comments &raquo;</a>
+				•
+				<a href="{{ BASE_PATH }}{{ post.url }}">Read more &raquo;</a>
+			</div> 
 		</div>
 	</div>
   {% endfor %}
