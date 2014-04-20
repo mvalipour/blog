@@ -107,6 +107,8 @@ body.post-page .page-header {
 	background:#eee;
 	color:inherit;
 	border-bottom:solid 5px #ddd;
+	padding-top:50px;
+	text-align: left;
 }
 body.post-page .navbar{
 }
