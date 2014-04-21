@@ -15,6 +15,11 @@ h2, .h2 {
 font-size: 38px;
 }
 
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small
+{
+	color: #F1CBCB;
+}
+
 :target {background:#FFF5CC; outline: solid 20px #FFF5CC; position:relative;}
 :target:before {
 content: ">";
@@ -172,7 +177,7 @@ body.post-page .navbar{
 .post-item a,
 .post-item a:hover,
 .post-item a:visited {
-    color:#333;
+    color:#555;
 }
 
 .post-item h2.title-field {
@@ -189,9 +194,9 @@ body.post-page .navbar{
     text-align:right;
 }
 
-.post-item.alt-two { background:#D6EAF8; }
-.post-item.alt-four { background:#F9E6ED; }
-.post-item.alt-six { background:#E9F7EF; }
+.post-item.alt-two { background: #fff; }
+.post-item.alt-four { background: #fff; }
+.post-item.alt-six { background: #fff; }
 
 body.post-page .date-container {
 	background: #1c7c44;
