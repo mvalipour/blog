@@ -10,8 +10,7 @@ title: Welcome!
 	
 	<div class="post-item alt-{{ theCycle }} index-{{ forloop.index }}">
 	    <div class="container-narrow">
-			<h2 class="title-field"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></h2>
-			<div class="date-field">{{ post.date | date_to_string }}</div>
+			<h2 class="title-field"><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a> <small>{{ post.date | date_to_string }}</small></h2>
 			<div class="summary-field">
 				{% if post.content contains '<!--more-->' %}
 				  {{ post.content | split:'<!--more-->' | first }}
